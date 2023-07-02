@@ -1,0 +1,96 @@
+/* Apply colors and styles to the page elements */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section.hero {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .hero-content h2 {
+    color: #333;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 7px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Make the header sticky */
+  
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  /* Add some spacing and borders to the header */
+  
+  nav {
+    margin-top: 10px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    margin-right: 15px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  /* Add some padding to the body content */
+  
+  body > *:not(header):not(footer) {
+    padding: 20px;
+  }
+  
