@@ -30,10 +30,11 @@
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       padding: 20px;
       margin-bottom: 20px;
+      width: 50%;
     }
 
     .project img {
-      width: 100%;
+      width: 25%;
       border-radius: 5px;
       margin-bottom: 10px;
     }
@@ -68,28 +69,69 @@
     width: 100%;
     bottom: 0;
   }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
   
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav {
+    margin-top: 10px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    margin-right: 15px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+
   </style>
 </head>
 <body>
   <header>
     <h1>Portfolio Projects</h1>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/pages/skills.html">Skills</a></li>
+          <li><a href="/pages/about.html">About</a></li>
+          <li><a href="/pages/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+  
   </header>
 
   <main>
     <section class="project">
-      <img src="project1.jpg" alt="Project 1">
-      <h2>Project 1</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac feugiat nulla, eu eleifend lacus.</p>
-      <a href="project1.html">View Project</a>
+      <img src="/images/bikeGuy.jpeg" alt="Project 1">
+      <h2>Richmond Bike Infrastructure</h2>
+      <p>The (incomplete) guide to bike infrastructure in Richmond, VA</p>
+      <p>Technologies: Leaflet, Geojson, OpenStreetMap (Data), Javascript, HTML, CSS </p>
+
+      <a href="https://kmccarthy1.github.io/leaflet1/">View Project</a>
     </section>
 
-    <section class="project">
+    <!-- <section class="project">
       <img src="project2.jpg" alt="Project 2">
       <h2>Project 2</h2>
       <p>Ut commodo diam nec metus tincidunt tincidunt. Sed vitae nibh a nunc sagittis rhoncus.</p>
       <a href="project2.html">View Project</a>
-    </section>
+    </section> -->
 
     <!-- Add more project sections as needed -->
 
