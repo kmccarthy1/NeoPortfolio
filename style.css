@@ -1,5 +1,3 @@
-/* Apply colors and styles to the page elements */
-
 body {
     margin: 0;
     padding: 0;
@@ -62,17 +60,14 @@ body {
     width: 100%;
     bottom: 0;
   }
-  
-  /* Make the header sticky */
+
   
   header {
     position: sticky;
     top: 0;
     z-index: 100;
   }
-  
-  /* Add some spacing and borders to the header */
-  
+    
   nav {
     margin-top: 10px;
     border-top: 1px solid #fff;
@@ -87,9 +82,7 @@ body {
   nav ul li:last-child {
     margin-right: 0;
   }
-  
-  /* Add some padding to the body content */
-  
+    
   body > *:not(header):not(footer) {
     padding: 20px;
   }
